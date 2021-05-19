@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.imgCarr{
+    max-height: 80vh !important;
+}
+.carousel-item img{
+    max-height: 90vh;
+    object-fit: fill;
+}
+.principalArea{
+    background-image: url('imagens/stranger-things-minimalist-uhdpaper.com-4K-3.jpg');
+    background: no-repeat center;
+}
+.txtSinopse{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.txtSinopse p{
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
