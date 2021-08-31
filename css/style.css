@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    src:url('../fonts/JuliusSansOne-Regular.ttf');
+    font-family: 'Julius Sans One', sans-serif;
+}
+.imgCarr{
+    max-height: 80vh !important;
+}
+.carousel-item img{
+    max-height: 90vh;
+    object-fit: fill;
+}
+.principalArea{
+    background-image: url('imagens/stranger-things-minimalist-uhdpaper.com-4K-3.jpg');
+    background: no-repeat center;
+}
+.txtSinopse{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.txtSinopse p{
+    src:url('../fonts/JuliusSansOne-Regular.ttf');
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.title{
+    text-shadow: 
+      1px -1px 0 #2f5d87,
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880;
+      src: url('../fonts/Judson-Regular.ttf');
+    font-family: 'Judson', serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.imgGray {
+	display: block;
+	transition: .3s;
+	
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray; /* IE */
+}
+
+.imgGray:hover {
+	-webkit-filter: none;	
+	filter: none;
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+.navStranger li{
+    border: 1px solid rgb(165, 162, 162, 0.09);
+    padding: 7px;
+}
+.navStranger li:hover{
+    background-color: rgb(165, 162, 162, 0.09);
+}
+.navStranger a{
+    color:white;
+    letter-spacing: 2px;
+}
+section{
+    margin-top: 10px;
+}
